@@ -1,2 +1,2 @@
-# JeliaSantos.github.io
+# https://JeliaSantos.github.io
 jogoPapel, Pedra e tesoura
