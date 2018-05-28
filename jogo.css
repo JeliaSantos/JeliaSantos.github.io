@@ -1,0 +1,19 @@
+.secao {
+
+
+background: radial-gradient(White,pink);
+}
+footer {
+    text-align: center;
+    padding: 13px;
+    background-color: #000000;
+    color: #DDD;
+}
+h1 {
+	text-align: center;
+	border-bottom: 3px solid #aaa;
+	background-color:#000000;
+	color: #ddd;
+	padding: 10px;	
+	
+}

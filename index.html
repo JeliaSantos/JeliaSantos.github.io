@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>Pedra Papel e Tesoura</title>
+    <link id="style" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+	<link rel="stylesheet" type="text/css" href="jogo.css">
+</head>
+
+<body>
+<div class="secao">
+    <div class="container">
+	
+        <center>
+            <h1 >Pedra, Papel e Tesoura</h1>
+			
+           <br>
+        </center>
+    </div>
+	<center>
+	 <div id="play" class="ui labeled button" tabindex="0">
+                <div class="ui black button">
+                    <i class=""></i> Rodadas:
+                </div>
+                <a class="ui basic black  label"><span id="played">0</span></a>
+            </div>
+	
+	</center>
+	
+	
+	
+    <div id="interface" class="ui conatiner">
+        <br>
+        <div class="ui eight column stackable centered grid">
+            <div id="score" style="display: none;" class="row">
+                <div class="center aligned column">
+                    <div class="ui pink raised segment">
+                        <h2><i class="user icon pink"></i> 
+						<span class="score" id="vitorias">0</span></h2>
+                    </div>
+                </div>
+				<img src="img/xbrasil.png" width="20px" height="30px">
+                <div class="center aligned column">
+                    <div class="ui  raised segment">
+                        <h2>
+						<i class="user icon pink"></i> 
+						<span class="score" id="empates">0</span>
+						<i class="computer icon "></i>
+						</h2>
+						
+                    </div>
+					
+                </div>
+				<img src="img/xbrasil.png" width="20px" height="30px">
+                <div class="center aligned column">				
+                    <div class="ui black raised segment">
+                        <h2><i class="computer icon black"></i> 
+						<span class="score" id="derrotas">0</span></h2>
+                    </div>
+                </div>
+				
+				
+            </div>
+			
+            <div class="row">
+                <div class="four wide column">
+                    <center>
+                        <h2><i class="user icon pink"></i> Jogador</h2>
+                    </center>
+					
+                    <div class="ui pink raised segment">
+                        <center>
+                            <br>
+                            <button id="btn1" class="ui pink button">
+                                <img id="pedra" width="50px" height="50px">
+                            </button>
+							
+                            <button id="btn2" class="ui pink button">
+                                <img id="papel" width="50px" height="50px">
+                            </button><br>
+							
+                            <button id="btn3" class="ui pink button">
+                                <img id="tesoura" width="50px" height="50px">
+                            </button>
+                        </center>
+                    </div>
+				
+               </div>
+				 <img src="img/x.png" width="150px" height="200px">
+				 
+                <div class="four wide column">
+                    <center>
+                        <h2><i class="computer icon black"></i> Computador </h2>
+                    </center>
+                    <div class="ui black raised segment">
+                        <center>
+                            <img id="Comp" width="100px" height="160px"><br>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+	
+	
+
+    <div class="container">
+        <br>
+        <center>
+           
+          
+            <h2 id="jogo"></h2>
+            <button id="zerar" class="ui  black button" >
+                        Recomeçar
+                      </button>
+			   
+        </center>
+		<br>
+    </div>
+   </div>
+  	 <footer>
+        <p>Desenvolvido por Jélia dos Santos Gonçalves.</p>
+    </footer>
+</body>
+
+</html>
