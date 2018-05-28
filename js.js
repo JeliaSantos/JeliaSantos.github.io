@@ -5,10 +5,10 @@ $(document).ready(function () {
  
  
   var options = [
-    "img/pedra.png",
-    "img/papel.png",
-    "img/tesoura.png",
-    "img/compu.png"
+    "pedra.png",
+    "papel.png",
+    "tesoura.png",
+    "compu.png"
   ];
   $("#Comp").attr('src', options[3]);
   $("#pedra").attr('src', options[0]);
